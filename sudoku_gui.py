@@ -78,7 +78,6 @@ class SudokuGUI:
         self.mistakes = 0
         self.hints = 3
         
-        # --- Панель керування ---
         control_frame = tk.Frame(root, padx=10, pady=10)
         control_frame.pack(side=tk.TOP, fill=tk.X)
         
